@@ -1,3 +1,36 @@
 nav {
   background-color: #ea4127;
 }
+
+.unidiversity-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+.banner {
+
+}
+
+.banner-content {
+  padding: 6rem 1.5rem 1.5rem 1.5rem;
+  background-image: url(./img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.search-box {
+  background-color: rgba(220, 220, 220, 0.8);
+  border-radius: 10px;
+  margin: 0 0 16px 0;
+}
+
+.banner-search-btn {
+  background-color: #ea4127;
+  color: #fff;
+}
