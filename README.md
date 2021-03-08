@@ -68,7 +68,10 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Design idea by [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna)
-- Inspiration
+- Photos on Unsplash:
+  - [Vasily Koloda](https://unsplash.com/@napr0tiv)
+  - [Rima Roman Selia](https://unsplash.com/@sxy_selia)
+  - [RayBay](https://unsplash.com/@raybay)
 - etc
 
 ## 📝 License
