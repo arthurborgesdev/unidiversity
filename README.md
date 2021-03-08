@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Unidiversity - Directory of schools, bootcamps, unversities and etc so you can achieve job market easily - Microverse HTML Capstone project
+# Unidiversity - Directory of schools, boot camps, universities and etc so you can achieve job market easily - Microverse HTML Capstone project
 
 > This project is the final assessment of the Microverse Casptone projects for HTML5/CSS3 module. It consists of building a 3-page website based on the design files from the client using web development technologies and best practices.
 
@@ -73,4 +73,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./LICENSE) licensed.
