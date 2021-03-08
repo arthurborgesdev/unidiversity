@@ -11,14 +11,12 @@ nav {
 
 h1 {
   color: #fff;
-}
-
-.banner {
-
+  color-adjust: exact;
+  text-shadow: 2px 2px #000;
 }
 
 .banner-content {
-  padding: 6rem 1.5rem 1.5rem 1.5rem;
+  padding: 6rem 1.5rem 4rem 1.5rem;
   background-image: url(./img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -33,4 +31,27 @@ h1 {
 .banner-search-btn {
   background-color: #ea4127;
   color: #fff;
+}
+
+.inner-workings h2 {
+  color: #ea4127;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 3rem 0 0 0;
+}
+
+.working-icon {
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+.inner-workings h3 {
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.working-block {
+  padding: 0 2rem;
+  text-align: center;
 }
