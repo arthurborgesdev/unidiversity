@@ -17,10 +17,12 @@ h1 {
 
 .banner-content {
   padding: 6rem 1.5rem 4rem 1.5rem;
-  background-image: url(./img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
 
 .search-box {
   background-color: rgba(220, 220, 220, 0.8);
