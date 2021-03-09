@@ -13,16 +13,28 @@
   <title>Unidiversity - Connecting people to job market</title>
 </head>
 <body>
-  <nav class="px-4">
+  <nav class="px-4 d-flex flex-column flex-md-row justify-content-md-between">
     <div class="d-flex text-light justify-content-center">
       <i class="fas fa-3x fa-university"></i>
       <a href="./index.html" class="ps-2 my-auto unidiversity-brand">Unidiversity</a>
     </div>
-    <div class="d-flex px-5 py-2 mt-2 text-light justify-content-center">
-      <a href="#"><i class="fas px-5 fa-1x fa-search"></i></a>
-      <a href="#"><i class="far px-5 fa-1x fa-user"></i></a>
-      <a href="#"><i class="fas px-5 fa-1x fa-rss"></i></a>
-      <a href="#"><i class="fas px-5 fa-1x fa-bars"></i></a>
+    <div class="d-flex py-2 mx-md-5 mt-2 navbar-social-icons justify-content-around">
+      <a class="text-light text-decoration-none" href="#">
+        <i class="fas fa-1x fa-search"></i>
+        <b class="d-none d-lg-inline mx-1">Institutions</b>
+      </a>
+      <a class="text-light text-decoration-none" href="#">
+        <i class="far fa-1x fa-user"></i>
+        <b class="d-none d-lg-inline mx-1">About</b>
+      </a>
+      <a class="text-light text-decoration-none" href="#">
+        <i class="fas fa-1x fa-rss"></i>
+        <b class="d-none d-lg-inline mx-1">Blog</b>
+      </a>
+      <a class="text-light text-decoration-none" href="#">
+        <i class="fas fa-1x fa-bars"></i>
+        <b class="d-none d-lg-inline mx-1">More...</b>
+      </a>
     </div>
   </nav>
 
@@ -101,23 +113,56 @@
       </div>
     </section>
     <footer>
-      <section class="black-bar">
-        <div>
+      <section class="black-bar mx-auto d-none d-md-block py-4 px-1">
+        <div class="d-flex justify-content-center">
+          <div class="footer-links">
+            <a class="text-white text-decoration-none px-2" href="#">HOME</a>
+            <a class="text-white text-decoration-none px-2" href="#">SEARCH</a>
+            <a class="text-white text-decoration-none px-2" href="#">ABOUT US</a>
+            <a class="text-white text-decoration-none px-2 pe-4" href="#">ADVERTISE</a>
+          </div>
+          <div class="footer-circular text-white">
+            <i class="fas fa-2x fa-university"></i>
+          </div>
+          <div class="footer-links">
+            <a class="text-white text-decoration-none ps-5" href="#">FACEBOOK</a>
+            <a class="text-white text-decoration-none px-2" href="#">TWITTER</a>
+            <a class="text-white text-decoration-none px-2" href="#">BLOG</a>
+            <a class="text-white text-decoration-none px-2" href="#">GOOGLE+</a>
+          </div>
         </div>
-        <div>
-
+        <div class="row mt-5 d-none d-lg-flex">
+          <div class="col-4 text-center">
+            <h4 class="text-white mb-3">SUBSCRIBE</h4>
+            <div class="d-flex justify-content-center">
+              <input class="subscribe-input" type="text" size="10" placeholder="you@example.com">
+              <input class="text-white bg-secondary px-5" type="button" value="send">
+            </div>
+          </div>
+          <div class="col-4">
+            <h4 class="text-white text-center mb-3">CONTACT</h4>
+            <p class="mb-0 text-white text-center">Have a question or submission?</p>
+            <p class="mb-0 text-center text-danger">info@unidiversity.com</p>
+          </div>
+          <div class="col-4 d-flex flex-column align-items-center">
+            <h4 class="text-white text-center mb-3">ABOUT</h4>
+            <p class="text-white text-center">Unidiversity is an online platform that assists everyone to find a 
+              suitable educational institution by simple searching by country,
+              type, time to job market, or name. <span class="text-danger">Learn more...</span>
+            </p>
+          </div>
         </div>
       </section>
-      <section class="d-flex my-auto justify-content-between gray-bar">
+      <section class="d-flex my-auto justify-content-between gray-bar pt-2">
         <div class="social-icons">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-github"></i>
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-instagram"></i>
+          <a class="text-dark text-decoration-none px-2" href="#"><i class="fab fa-facebook-f"></i></a>
+          <a class="text-dark text-decoration-none px-2" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="text-dark text-decoration-none px-2" href="#"><i class="fab fa-github"></i></a>
+          <a class="text-dark text-decoration-none px-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a class="text-dark text-decoration-none px-2" href="#"><i class="fab fa-instagram"></i></a>
         </div>
         <div class="acknowledgements">
-          <p>© Developed by Arthur Borges. Design by PatashuleKE</p>
+          <p class="px-4">© Developed by Arthur Borges. Design by PatashuleKE</p>
         </div>
       </section>
     </footer>
