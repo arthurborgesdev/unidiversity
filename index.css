@@ -124,6 +124,11 @@ h1 {
   border-radius: 50%;
 }
 
+.subscribe-input {
+  border: 1px solid #666;
+  background-color: #000;
+}
+
 /* List Items page */
 
 .search-form {
