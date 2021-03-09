@@ -151,6 +151,17 @@ h1 {
   height: auto;
 }
 
+.details-link {
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+}
+
+.details-link:hover {
+  color: #ea4127;
+}
+
+/* Media queries */
+
 @media (min-width: 768px) {
   .search-box {
     width: 75%;

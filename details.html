@@ -39,81 +39,10 @@
   </nav>
 
   <main>
-    <section class="search-form">
-      <h1 class="mb-4">Filter by name, country, educational type and time to job market:</h1>
-      <form action="./list_items.html" class="d-flex flex-column justify-content-around">
-
-        <div class="d-flex flex-column flex-md-row">
-          <div class="d-flex flex-column mx-auto my-2">
-            <label for="name">Name:*</label>
-            <input type="text" name="name" size="8" id="name">
-          </div>
-          <div class="d-flex flex-column mx-auto my-2">
-            <label for="country">Country:*</label>
-            <input type="text" name="country" size="8" id="country">
-          </div>
-          <div class="d-flex flex-column mx-auto my-2 my-md-auto mx-lg-4">
-            <label for="educational-type">Educational type:*</label>
-            <select name="educational-type" id="educational-type">
-              <option value="">--Educational Type--</option>
-              <option value="university">University</option>
-              <option value="boot-camp">Boot camp</option>
-              <option value="school">School</option>
-            </select>
-          </div>
-          <div class="d-flex flex-column mx-auto my-2 my-md-auto">
-            <label for="market-time">Time to job market(Months):*</label>
-            <select name="market-time" id="market-time">
-              <option value="">--Time to job market--</option>
-              <option value="3">3 Months</option>
-              <option value="5">5 Months</option>
-              <option value="9">9 Months</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="d-flex justify-content-center p-2 m-2">
-          <input type="submit" value="Search" class="btn btn-primary submit-search mx-3">
-          <a href="#" class="btn btn-warning">
-            <i class="fas fa-eraser"></i> Clear filter
-          </a>
-        </div>
-
-      </form>
+    <section>
+      <img class="detail-img" src="" alt="">
     </section>
 
-
-    <section class="container list-items">
-      <div class="row">
-        <h2 class="col-12 text-secondary fs-5 text-center my-4">Your result found 6 educational institution(s).</h2>
-        <div class="col-12 col-md-6 col-lg-4 item-block">
-          <img src="./img/institutions/darya-tryfanava-d55fhArDES0-unsplash.jpg" alt="">
-          <p class="text-center">More details</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 item-block">
-          <img src="./img/institutions/green-chameleon-s9CC2SKySJM-unsplash.jpg" alt="">
-          <p class="text-center">More details</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 item-block">
-          <img src="./img/institutions/ken-theimer-PoE6Q48B-5k-unsplash.jpg" alt="">
-          <p class="text-center">More details</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 item-block">
-          <img src="./img/institutions/nathan-dumlao-ewGMqs2tmJI-unsplash.jpg" alt="">
-          <p class="text-center">More details</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 item-block">
-          <img src="./img/institutions/element5-digital-jCIMcOpFHig-unsplash.jpg" alt="">
-          <p class="text-center">More details</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 item-block">
-          <img src="./img/institutions/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg" alt="">
-          <p class="text-center">
-            <a class="details-link fw-bold" href="./details.html?img=inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg">More details</a> 
-          </p>
-        </div>
-      </div>
-    </section>
     <footer>
       <section class="black-bar mx-auto d-none d-md-block py-4 px-1">
         <div class="d-flex justify-content-center">
@@ -175,5 +104,10 @@
     crossorigin="anonymous">
   </script>
   <script src="https://kit.fontawesome.com/382832813c.js" crossorigin="anonymous"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const img = urlParams.get('img');
+    document.querySelector(".detail-img").src = "./img/institutions/" + img;
+  </script>
 </body>
 </html>
