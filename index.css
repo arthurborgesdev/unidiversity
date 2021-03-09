@@ -65,7 +65,6 @@ h1 {
   background-color: gray;
 }
 
-
 /* List Items page */
 
 .search-form {
@@ -86,7 +85,4 @@ h1 {
 .list-items img {
   max-width: 100%;
   height: auto;
-}
-
-.search-form input[type="text"] {
 }
