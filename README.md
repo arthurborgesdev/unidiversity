@@ -73,9 +73,9 @@ Give a ⭐️ if you like this project!
   - [Rima Roman Selia](https://unsplash.com/@sxy_selia)
   - [RayBay](https://unsplash.com/@raybay)
   - [Nathan Dumlao](https://unsplash.com/@nate_dumlao)
-  - [Dom Fou](https://unsplash.com/@domlafou)
-  - [Vadim Sherbakov](https://unsplash.com/@madebyvadim)
-  - [Windows](https://unsplash.com/@windows)
+  - [Element5 Digital](https://unsplash.com/@element5digital)
+  - [Darya Tryfanava](https://unsplash.com/@darya_tryfanava)
+  - [Iñaki del Olmo](https://unsplash.com/@inakihxz)
   - [Green Chameleon](https://unsplash.com/@craftedbygc)
   - [Ken Theimer](https://unsplash.com/@rubik3x)
 - etc

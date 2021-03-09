@@ -64,3 +64,12 @@ h1 {
 .gray-bar {
   background-color: gray;
 }
+
+
+/* List Items page */
+
+
+.list-items img {
+  max-width: 100%;
+  height: auto;
+}
