@@ -72,6 +72,12 @@ Give a ⭐️ if you like this project!
   - [Vasily Koloda](https://unsplash.com/@napr0tiv)
   - [Rima Roman Selia](https://unsplash.com/@sxy_selia)
   - [RayBay](https://unsplash.com/@raybay)
+  - [Nathan Dumlao](https://unsplash.com/@nate_dumlao)
+  - [Dom Fou](https://unsplash.com/@domlafou)
+  - [Vadim Sherbakov](https://unsplash.com/@madebyvadim)
+  - [Windows](https://unsplash.com/@windows)
+  - [Green Chameleon](https://unsplash.com/@craftedbygc)
+  - [Ken Theimer](https://unsplash.com/@rubik3x)
 - etc
 
 ## 📝 License
