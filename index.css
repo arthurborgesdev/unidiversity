@@ -74,7 +74,7 @@ h1 {
 }
 
 .salmon-panel input {
-  color:rgb(225, 127, 101);
+  color: rgb(225, 127, 101);
   border: none;
 }
 
@@ -119,7 +119,7 @@ h1 {
 .footer-circular {
   background-color: rgba(0, 0, 0, 1);
   position: absolute;
-  padding: 0.50rem;
+  padding: 0.5rem;
   border: 1px solid rgb(53, 53, 53);
   border-radius: 50%;
 }
