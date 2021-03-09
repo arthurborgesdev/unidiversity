@@ -57,14 +57,6 @@ h1 {
   text-align: center;
 }
 
-.black-bar {
-  background-color: #000;
-}
-
-.gray-bar {
-  background-color: gray;
-}
-
 .salmon-panel {
   background-color: rgb(225, 127, 101);
 }
@@ -108,6 +100,28 @@ h1 {
   width: 15rem;
   height: 15rem;
   margin: 2rem 3rem;
+}
+
+.black-bar {
+  background-color: #000;
+}
+
+.gray-bar {
+  background-color: darkgray;
+}
+
+.footer-links {
+  border-top: 1px solid rgb(53, 53, 53);
+  border-bottom: 1px solid rgb(53, 53, 53);
+  padding: 0.5rem 0;
+}
+
+.footer-circular {
+  background-color: rgba(0, 0, 0, 1);
+  position: absolute;
+  padding: 0.50rem;
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 50%;
 }
 
 /* List Items page */
