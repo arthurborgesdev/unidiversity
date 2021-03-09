@@ -28,32 +28,60 @@
 
   <main>
     <section class="search-form">
-      
+      <h1>Filter by name, country, educational type and time to job market:</h1>
+      <form class="d-flex flex-column">
+        <div class="d-flex flex-column mx-auto my-2">
+          <label for="name">Name:*</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="d-flex flex-column mx-auto my-2">
+          <label for="country">Country:*</label>
+          <input type="text" name="country" id="country">
+        </div>
+        <div class="d-flex flex-column mx-auto my-2">
+          <label for="educational-type">Educational type:*</label>
+          <select name="educational-type" id="educational-type">
+            <option value="">--Educational Type--</option>
+            <option value="university">University</option>
+            <option value="boot-camp">Boot camp</option>
+            <option value="school">School</option>
+          </select>
+        </div>
+        <div class="d-flex flex-column mx-auto my-2">
+          <label for="market-time">Time to job market(Months):*</label>
+          <select name="market-time" id="maket-time">
+            <option value="">--Time to job market--</option>
+            <option value="3">3 Months</option>
+            <option value="5">5 Months</option>
+            <option value="9">9 Months</option>
+          </select>
+        </div>
+      </form>
     </section>
     <section class="container list-items">
       <div class="row">
         <h2 class="col-12 text-secondary fs-5 text-center my-4">Your result found 6 educational institution(s).</h2>
-        <div class="col-12 col-md-6 item-block">
+        <div class="col-12 col-md-6 col-lg-4 item-block">
           <img src="./img/institutions/darya-tryfanava-d55fhArDES0-unsplash.jpg" alt="">
           <p class="text-center">More details</p>
         </div>
-        <div class="col-12 col-md-6 item-block">
+        <div class="col-12 col-md-6 col-lg-4 item-block">
           <img src="./img/institutions/green-chameleon-s9CC2SKySJM-unsplash.jpg" alt="">
           <p class="text-center">More details</p>
         </div>
-        <div class="col-12 col-md-6 item-block">
+        <div class="col-12 col-md-6 col-lg-4 item-block">
           <img src="./img/institutions/ken-theimer-PoE6Q48B-5k-unsplash.jpg" alt="">
           <p class="text-center">More details</p>
         </div>
-        <div class="col-12 col-md-6 item-block">
+        <div class="col-12 col-md-6 col-lg-4 item-block">
           <img src="./img/institutions/nathan-dumlao-ewGMqs2tmJI-unsplash.jpg" alt="">
           <p class="text-center">More details</p>
         </div>
-        <div class="col-12 col-md-6 item-block">
+        <div class="col-12 col-md-6 col-lg-4 item-block">
           <img src="./img/institutions/element5-digital-jCIMcOpFHig-unsplash.jpg" alt="">
           <p class="text-center">More details</p>
         </div>
-        <div class="col-12 col-md-6 item-block">
+        <div class="col-12 col-md-6 col-lg-4 item-block">
           <img src="./img/institutions/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg" alt="">
           <p class="text-center">More details</p>
         </div>

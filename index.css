@@ -68,6 +68,20 @@ h1 {
 
 /* List Items page */
 
+.search-form {
+  background-color: rgb(252, 221, 226);
+  margin: 2rem;
+  padding: 1.5rem;
+}
+
+.search-form h1 {
+  color: #666;
+  font-size: 1.25rem;
+  color-adjust: exact;
+  text-shadow: none;
+  text-align: center;
+  padding-top: 1rem;
+}
 
 .list-items img {
   max-width: 100%;
