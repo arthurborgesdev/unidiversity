@@ -20,7 +20,7 @@ Unidiversity is a website that helps people finding the right learning resource 
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://arthurborgesdev.github.io/unidiversity)
 
 
 ## Getting Started
