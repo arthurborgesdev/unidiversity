@@ -20,7 +20,7 @@ h1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .search-box {
