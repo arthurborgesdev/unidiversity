@@ -88,6 +88,5 @@ h1 {
   height: auto;
 }
 
-.submit-search {
-
+.search-form input[type="text"] {
 }
