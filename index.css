@@ -160,6 +160,13 @@ h1 {
   color: #ea4127;
 }
 
+/* Details Items page */
+
+.detail-img {
+  width: 25%;
+  height: auto;
+}
+
 /* Media queries */
 
 @media (min-width: 768px) {
