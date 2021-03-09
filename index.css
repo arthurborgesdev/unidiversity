@@ -65,6 +65,51 @@ h1 {
   background-color: gray;
 }
 
+.salmon-panel {
+  background-color: rgb(225, 127, 101);
+}
+
+.gray-panel {
+  background-color: rgb(152, 164, 165);
+}
+
+.blue-panel {
+  background-color: rgb(80, 155, 215);
+}
+
+.panels-section div {
+  margin: 5rem 2rem;
+}
+
+.salmon-panel input {
+  color:rgb(225, 127, 101);
+  border: none;
+}
+
+.gray-panel input {
+  color: rgb(152, 164, 165);
+  border: none;
+}
+
+.blue-panel input {
+  color: rgb(80, 155, 215);
+  border: none;
+}
+
+.salmon-panel img,
+.gray-panel img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin: 2rem 3rem;
+}
+
+.blue-panel {
+  width: 15rem;
+  height: 15rem;
+  margin: 2rem 3rem;
+}
+
 /* List Items page */
 
 .search-form {
