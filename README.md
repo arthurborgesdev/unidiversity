@@ -4,7 +4,7 @@
 
 > This project is the final assessment of the Microverse Casptone projects for HTML5/CSS3 module. It consists of building a 3-page website based on the design files from the client using web development technologies and best practices.
 
-![vscode-screenshot](./vscode-screenshot-hello-world.png)
+![unidiversity-screenshot](./img/unidiversity-screenshot.png)
 
 Unidiversity is a website that helps people finding the right learning resource and the fastest one that will take they to job market. In one place you can find a curated list of universities, bootcamps and schools for you to choose. Less time searching, more time spent studying!
 
@@ -15,7 +15,14 @@ Unidiversity is a website that helps people finding the right learning resource 
 - Github Flow
 - VSCode
 - Linters (Webhint, Lighthouse and Stylelint)
--
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- Flexbox
+- Grid
+- Query Strings knowledge
+- DOM manipulation
 
 
 ## Live Demo
@@ -25,7 +32,7 @@ Unidiversity is a website that helps people finding the right learning resource 
 
 ## Getting Started
 
-clone the file from Github.
+Clone the file from Github.
 
 ### Prerequisites
 
@@ -49,7 +56,7 @@ or
 
 ## Authors
 
-👤 **Author1**
+👤 **Arthur Borges**
 
 - GitHub: [@arthurborgesdev](https://github.com/arthurborgesdev)
 - Twitter: [@arthurmoises](https://twitter.com/arthurmoises)
@@ -78,7 +85,7 @@ Give a ⭐️ if you like this project!
   - [Iñaki del Olmo](https://unsplash.com/@inakihxz)
   - [Green Chameleon](https://unsplash.com/@craftedbygc)
   - [Ken Theimer](https://unsplash.com/@rubik3x)
-- etc
+- Icons by Fontawesome
 
 ## 📝 License
 
