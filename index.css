@@ -173,6 +173,11 @@ h1 {
 .detail-img {
   width: 40%;
   height: auto;
+  border: 1px solid gray;
+}
+
+.map {
+  border: 1px solid gray;
 }
 
 .fa-shield-alt {
