@@ -32,7 +32,13 @@ Unidiversity is a website that helps people finding the right learning resource 
 
 ## Getting Started
 
-Clone the file from Github.
+Clone the file from Github:
+
+Open a terminal and type: 
+
+`git clone git@github.com:arthurborgesdev/unidiversity.git`
+
+Press enter. Enjoy!
 
 ### Prerequisites
 
