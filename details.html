@@ -42,12 +42,76 @@
     <section>
       <div class="text-center m-5">
         <img class="detail-img" src="non-empty" alt="">
-        <p class="institution-name"></p>
-        <p class="institution-country"></p>
-        <p class="institution-type"></p>
-        <p class="institution-time"></p>
+        <article class="card w-75 mt-3 p-3 mx-auto">
+          <div class="d-flex my-3">
+            <i class="fas fa-2x fa-shield-alt"></i>
+            <p class="institution-name ps-1 fs-3"></p>
+          </div>
+          <section class="row m-2">
+            <div class="d-flex justify-content-center col-12 col-md-6 p-2 border">
+              <label class="text-primary fx-bold" for="instution-country">COUNTRY:</label>
+              <p class="institution-country ps-1 mb-0"></p>
+            </div>
+            <div class="d-flex justify-content-center col-12 col-md-6 p-2 border">
+              <label class="text-primary fx-bold" for="instution-country">TYPE:</label>
+              <p class="institution-type ps-1 mb-0"></p>
+            </div>
+            <div class="d-flex justify-content-center col-12 col-md-6 p-2 border">
+              <label class="text-primary fx-bold" for="instution-country">TIME TO JOB (MONTHS):</label>
+              <p class="institution-time ps-1 mb-0"></p>
+            </div>
+            <div class="d-flex justify-content-center col-12 col-md-6 p-2 border">
+              <label class="text-primary fx-bold" for="instution-country">OBS:</label>
+              <p class="ps-1 mb-0">WORK IS GUARANTEED AFTER COMPLETION!</p>
+            </div>
+            <div class="col-12 col-md-8 offset-md-6">
+              <a class="btn btn-primary w-50 m-3" href="#"><i class="far fa-envelope pe-2"></i>APPLY</a>
+            </div>
+          </section>   
+          <div class="institution-info d-flex flex-column flex-md-row justify-content-evenly align-items-center mt-3 p-3">
+            <div>
+              <i class="fas fa-phone-alt"></i>
+              <span>TEL: +55 99 88 7777 4444</span>
+            </div>
+            <div>
+              <i class="fas fa-bus"></i>
+              <span>TRANSPORTATION: YES</span>
+            </div>
+            <div>
+              <i class="fas fa-user-graduate"></i>
+              <span>STUDENTS GRADUATED: 1500</span>
+            </div>
+            <div>
+              <i class="far fa-money-bill-alt"></i>
+              <span>STUDENTS SUPPORT: YES</span>
+            </div>
+          </div>
+        </article>
+        <div class="text-center mx-auto mt-3 w-50">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+            mollit anim id est laborum.
+          </p>
+        </div>
+        
       </div>
-      
+      <div class="d-flex flex-column align-items-center">
+        <h2 class="unidiversity-red">Map Directions</h2>
+        <iframe 
+          class="map m-3"
+          width="600" 
+          height="350"  
+          src="https://maps.google.com/maps?q=England&t=&z=9&ie=UTF8&iwloc=&output=embed" 
+          frameborder="yes" 
+          scrolling="no" 
+          marginheight="0" 
+          marginwidth="0">
+        </iframe>
+      </div>
     </section>
 
     <footer>
@@ -123,6 +187,8 @@
     document.querySelector(".institution-country").innerHTML = country; 
     document.querySelector(".institution-type").innerHTML = type; 
     document.querySelector(".institution-time").innerHTML = time; 
+
+    document.querySelector(".map").src = "https://maps.google.com/maps?q=" + country + "&t=&z=9&ie=UTF8&iwloc=&output=embed";
   </script>
 </body>
 </html>

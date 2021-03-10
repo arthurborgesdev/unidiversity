@@ -2,6 +2,10 @@ nav {
   background-color: #ea4127;
 }
 
+.unidiversity-red {
+  color: #ea4127;
+}
+
 .unidiversity-brand {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.75rem;
@@ -165,6 +169,21 @@ h1 {
 .detail-img {
   width: 40%;
   height: auto;
+}
+
+.fa-shield-alt {
+  color: #ea4127;
+}
+
+.fa-phone-alt,
+.fa-bus,
+.fa-user-graduate,
+.fa-money-bill-alt {
+  color: #0d6efd;
+}
+
+.institution-info span {
+  font-size: 0.8rem;
 }
 
 /* Media queries */
