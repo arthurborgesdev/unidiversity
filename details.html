@@ -40,7 +40,14 @@
 
   <main>
     <section>
-      <img class="detail-img" src="non-empty" alt="">
+      <div class="text-center m-5">
+        <img class="detail-img" src="non-empty" alt="">
+        <p class="institution-name"></p>
+        <p class="institution-country"></p>
+        <p class="institution-type"></p>
+        <p class="institution-time"></p>
+      </div>
+      
     </section>
 
     <footer>
@@ -107,7 +114,15 @@
   <script>
     const urlParams = new URLSearchParams(window.location.search);
     const img = urlParams.get('img');
+    const name = urlParams.get('name');
+    const country = urlParams.get('country');
+    const type = urlParams.get('type');
+    const time = urlParams.get('time');
     document.querySelector(".detail-img").src = "./img/institutions/" + img;
+    document.querySelector(".institution-name").innerHTML = name; 
+    document.querySelector(".institution-country").innerHTML = country; 
+    document.querySelector(".institution-type").innerHTML = type; 
+    document.querySelector(".institution-time").innerHTML = time; 
   </script>
 </body>
 </html>
