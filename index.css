@@ -115,11 +115,15 @@ h1 {
 }
 
 .gray-bar {
-  background-color: darkgray;
+  background-color: rgb(31, 31, 31);
 }
 
 .mobile-f-size {
   font-size: 0.7rem;
+}
+
+.footer-gray {
+  color: rgb(100, 100, 100);
 }
 
 .footer-links {
