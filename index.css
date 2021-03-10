@@ -118,6 +118,10 @@ h1 {
   background-color: darkgray;
 }
 
+.mobile-f-size {
+  font-size: 0.7rem;
+}
+
 .footer-links {
   border-top: 1px solid rgb(53, 53, 53);
   border-bottom: 1px solid rgb(53, 53, 53);
@@ -205,6 +209,10 @@ h1 {
 
   .navbar-social-icons {
     width: 50%;
+  }
+
+  .mobile-f-size {
+    font-size: 1rem;
   }
 }
 
