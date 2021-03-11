@@ -78,7 +78,7 @@ h1 {
 }
 
 .panels-section div {
-  margin: 5rem 2rem;
+  margin: 2rem;
 }
 
 .salmon-panel input {
@@ -98,16 +98,16 @@ h1 {
 
 .salmon-panel img,
 .gray-panel img {
-  width: 9rem;
-  height: 9rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
-  margin: 3rem 1rem;
+  margin: 3rem auto;
 }
 
 .blue-panel img {
   width: 9rem;
   height: 9rem;
-  margin: 3rem 1rem;
+  margin: 3rem auto;
 }
 
 .black-bar {
@@ -224,6 +224,10 @@ h1 {
     padding: 0.5rem;
     border: 1px solid rgb(53, 53, 53);
     border-radius: 50%;
+  }
+
+  .panels-section div {
+    margin: 5rem 2rem;
   }
 
   .salmon-panel img,
