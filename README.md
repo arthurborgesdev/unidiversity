@@ -30,6 +30,15 @@ Unidiversity is a website that helps people finding the right learning resource 
 [Live Demo Link](https://arthurborgesdev.github.io/unidiversity)
 
 
+## Live Videos
+
+[First](https://www.loom.com/share/f1629c540a82492c8f450ecb32481e9d)
+
+[Second](https://www.loom.com/share/ddc2328fd73d48ae973314e725316aad)
+
+[Third](https://www.loom.com/share/a4b6eda8f568448196a3e726dd7483b1)
+
+
 ## Getting Started
 
 Clone the file from Github:
