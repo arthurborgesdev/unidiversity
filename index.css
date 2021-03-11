@@ -179,7 +179,7 @@ h1 {
 .map {
   border: 1px solid gray;
   width: 300px;
-  height: 200px;  
+  height: 200px;
 }
 
 .fa-shield-alt {
@@ -196,7 +196,6 @@ h1 {
 .institution-info span {
   font-size: 0.8rem;
 }
-
 
 /* Media queries */
 
@@ -244,7 +243,7 @@ h1 {
   .map {
     border: 1px solid gray;
     width: 600px;
-    height: 350px;  
+    height: 350px;
   }
 }
 
