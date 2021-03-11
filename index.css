@@ -1,0 +1,264 @@
+nav {
+  background-color: #ea4127;
+}
+
+.unidiversity-red {
+  color: #ea4127;
+}
+
+.unidiversity-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.unidiversity-brand:hover {
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+  color-adjust: exact;
+  text-shadow: 2px 2px #000;
+}
+
+.banner-content {
+  padding: 6rem 1.5rem 4rem 1.5rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-box {
+  background-color: rgba(220, 220, 220, 0.8);
+  border-radius: 10px;
+  margin: 0 0 16px 0;
+}
+
+.banner-search-btn {
+  background-color: #ea4127;
+  color: #fff;
+}
+
+.inner-workings h2 {
+  color: #ea4127;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 3rem 0 0 0;
+}
+
+.working-icon {
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+.inner-workings h3 {
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.working-block {
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.salmon-panel {
+  background-color: rgb(225, 127, 101);
+}
+
+.gray-panel {
+  background-color: rgb(152, 164, 165);
+}
+
+.blue-panel {
+  background-color: rgb(80, 155, 215);
+}
+
+.panels-section div {
+  margin: 2rem;
+}
+
+.salmon-panel input {
+  color: rgb(225, 127, 101);
+  border: none;
+}
+
+.gray-panel input {
+  color: rgb(152, 164, 165);
+  border: none;
+}
+
+.blue-panel input {
+  color: rgb(80, 155, 215);
+  border: none;
+}
+
+.salmon-panel img,
+.gray-panel img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin: 3rem auto;
+}
+
+.blue-panel img {
+  width: 9rem;
+  height: 9rem;
+  margin: 3rem auto;
+}
+
+.black-bar {
+  background-color: #000;
+}
+
+.gray-bar {
+  background-color: rgb(31, 31, 31);
+}
+
+.mobile-f-size {
+  font-size: 0.7rem;
+}
+
+.footer-gray {
+  color: rgb(100, 100, 100);
+}
+
+.footer-links {
+  border-top: 1px solid rgb(53, 53, 53);
+  border-bottom: 1px solid rgb(53, 53, 53);
+  padding: 0.5rem 0;
+}
+
+.subscribe-input {
+  border: 1px solid #666;
+  background-color: #000;
+}
+
+/* List Items page */
+
+.search-form {
+  background-color: rgb(237, 237, 237);
+  margin: 2rem;
+  padding: 1.5rem;
+}
+
+.search-form h1 {
+  color: #666;
+  font-size: 1.25rem;
+  color-adjust: exact;
+  text-shadow: none;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.list-items img {
+  max-width: 100%;
+  height: auto;
+}
+
+.details-link {
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+}
+
+.details-link:hover {
+  color: #ea4127;
+}
+
+/* Details Items page */
+
+.detail-img {
+  width: 40%;
+  height: auto;
+  border: 1px solid gray;
+}
+
+.map {
+  border: 1px solid gray;
+  width: 300px;
+  height: 200px;
+}
+
+.fa-shield-alt {
+  color: #ea4127;
+}
+
+.fa-phone-alt,
+.fa-bus,
+.fa-user-graduate,
+.fa-money-bill-alt {
+  color: #0d6efd;
+}
+
+.institution-info span {
+  font-size: 0.8rem;
+}
+
+/* Media queries */
+
+@media (min-width: 768px) {
+  .search-box {
+    width: 75%;
+    margin: 2rem auto;
+  }
+
+  .navbar-social-icons {
+    width: 50%;
+  }
+
+  .mobile-f-size {
+    font-size: 1rem;
+  }
+
+  .banner-search-btn {
+    background-color: rgb(81, 155, 216);
+    color: #fff;
+  }
+
+  .footer-circular {
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    padding: 0.5rem;
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 50%;
+  }
+
+  .panels-section div {
+    margin: 5rem 2rem;
+  }
+
+  .salmon-panel img,
+  .gray-panel img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin: 2rem 3rem;
+  }
+
+  .blue-panel img {
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem 3rem;
+  }
+
+  .map {
+    border: 1px solid gray;
+    width: 600px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .search-box {
+    width: 50%;
+    margin: 2rem auto;
+  }
+
+  .banner-search-btn {
+    background-color: #ea4127;
+    color: #fff;
+  }
+}
