@@ -132,14 +132,6 @@ h1 {
   padding: 0.5rem 0;
 }
 
-.footer-circular {
-  background-color: rgba(0, 0, 0, 1);
-  position: absolute;
-  padding: 0.5rem;
-  border: 1px solid rgb(53, 53, 53);
-  border-radius: 50%;
-}
-
 .subscribe-input {
   border: 1px solid #666;
   background-color: #000;
@@ -222,6 +214,14 @@ h1 {
   .banner-search-btn {
     background-color: rgb(81, 155, 216);
     color: #fff;
+  }
+
+  .footer-circular {
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    padding: 0.5rem;
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 50%;
   }
 }
 
